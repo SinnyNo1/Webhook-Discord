@@ -166,6 +166,11 @@ body {
     box-shadow: 0 0 40px 0 rgb(255, 240, 31);
 }
 
+.text:focus {
+    transition: ease-in-out 0.2s;
+    box-shadow: 0 0 40px 0 rgb(31, 102, 255);
+}
+
 .button:active {
     transition: ease-in-out 0.1s;
     box-shadow: 0 0 60px 0 rgb(31, 102, 255);
